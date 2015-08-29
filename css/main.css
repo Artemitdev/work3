@@ -221,3 +221,4 @@ footer{position:relative;margin-top:-230px;height:230px;min-width:1020px}
 .product__text-table{width:100%}
 .product__text-table td{color:#5c7b98;font-size:14px;line-height:16px;padding:8px 10px}
 .product__text-table tr.colored{background:#eef2f4}
+.article p{column-count: 3;-webkit-column-count:3;-moz-column-count:3;font-family:elektra_light_probold;font-size:18px;color:#5c7b98;margin-bottom:20px}
