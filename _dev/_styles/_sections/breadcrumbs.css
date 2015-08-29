@@ -1,0 +1,99 @@
+/* --------- fonts --------- */
+@font-face {
+  font-family: 'elektra_light_probold';
+  src: url('/fonts/font-webfont.eot');
+  src: url('/fonts/font-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/font-webfont.woff2') format('woff2'), url('/fonts/font-webfont.woff') format('woff'), url('/fonts/font-webfont.ttf') format('truetype'), url('/fonts/font-webfont.svg#elektra_light_probold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'elektra_medium_proitalic';
+  src: url('/fonts/elektra_medium_pro_italic-webfont.eot');
+  src: url('/fonts/elektra_medium_pro_italic-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/elektra_medium_pro_italic-webfont.woff2') format('woff2'), url('/fonts/elektra_medium_pro_italic-webfont.woff') format('woff'), url('/fonts/elektra_medium_pro_italic-webfont.ttf') format('truetype'), url('/fonts/elektra_medium_pro_italic-webfont.svg#elektra_medium_proitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'elektra_medium_proregular';
+  src: url('/fonts/elektra_medium_pro-webfont.eot');
+  src: url('/fonts/elektra_medium_pro-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/elektra_medium_pro-webfont.woff2') format('woff2'), url('/fonts/elektra_medium_pro-webfont.woff') format('woff'), url('/fonts/elektra_medium_pro-webfont.ttf') format('truetype'), url('/fonts/elektra_medium_pro-webfont.svg#elektra_medium_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'elektra_light_proregular';
+  src: url('/fonts/elektra_light_pro-webfont.eot');
+  src: url('/fonts/elektra_light_pro-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/elektra_light_pro-webfont.woff2') format('woff2'), url('/fonts/elektra_light_pro-webfont.woff') format('woff'), url('/fonts/elektra_light_pro-webfont.ttf') format('truetype'), url('/fonts/elektra_light_pro-webfont.svg#elektra_light_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.electra {
+  font-family: 'elektra_medium_proregular';
+}
+.electra_bold {
+  font-family: 'elektra_light_probold';
+}
+.electra_light {
+  font-family: 'elektra_light_proregular';
+}
+.electra_italic {
+  font-family: 'elektra_medium_proitalic';
+}
+/* --------- colors --------- */
+/* --------- mixins --------- */
+.inlineblock {
+  display: inline-block;
+  vertical-align: top;
+}
+.clearfix {
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1 !ie;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+/* --------- breadcrumbs --------- */
+.breadcrumbs {
+  margin-bottom: 20px;
+}
+.breadcrumbs__list {
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1 !ie;
+}
+.breadcrumbs__list:before,
+.breadcrumbs__list:after {
+  content: "";
+  display: table;
+}
+.breadcrumbs__list:after {
+  clear: both;
+}
+.breadcrumbs__item {
+  float: left;
+}
+.breadcrumbs__item:before {
+  content: ">";
+  margin: 0 4px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 10px;
+  line-height: 16px;
+  color: #5c7b98;
+}
+.breadcrumbs__item:first-child:before {
+  display: none;
+}
+.breadcrumbs__item.active .breadcrumbs__link {
+  color: #5c7b98;
+  text-decoration: none;
+}
+.breadcrumbs__link {
+  color: #00b9fe;
+  font-size: 14px;
+  line-height: 16px;
+}
